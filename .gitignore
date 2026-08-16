@@ -6,6 +6,10 @@ bin-release/
 
 # Other files and folders
 .settings/
+.env
+__pycache__/
+node_modules/
+dist/
 
 # Executables
 *.swf
