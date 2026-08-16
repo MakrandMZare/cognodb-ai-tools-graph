@@ -1,0 +1,1 @@
+MATCH (t:Tool)-[:SUPPORTS]->(c:Capability)-[:RELATED_TO]->(c2:Capability) RETURN t, c, c2
